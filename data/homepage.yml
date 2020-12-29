@@ -16,7 +16,7 @@ feature:
     # feature item loop
     - name : "Hospital Management System"
       icon : "ti-pulse"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "The hospital management system (HMS) is an integrated software that handles different directions of clinic workflows. It manages the smooth healthcare performance along with administrative, medical, legal and financial control. That is a cornerstone for the successful operation of the healthcare facility"
       
     # feature item loop
     - name : "Pharmacy Management System"
