@@ -39,7 +39,7 @@ feature:
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Cloud Support"
+    - name : "Infrastructure Management Services "
       icon : "ti-cloud-up"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
