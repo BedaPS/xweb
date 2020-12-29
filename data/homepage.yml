@@ -11,7 +11,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+  title : "Services We Offer"
   feature_item:
     # feature item loop
     - name : "Clean Code"
