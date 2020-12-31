@@ -50,22 +50,22 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "The main advantages of LIS"
       images:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "IT infrastructure management is to provide structure and control of the functions responsible for diverse technical operations which generally involve hardware, software, and networking in both physical and virtual environments. The main goal is to minimize downtime and maintain business productivity"
       button:
         enable : true
         label : "Check it out"
         link : "#"
         
     # service item loop
-    - title : "It is a privately owned Information and cyber security company"
+    - title : "Cloud/Data Services and security"
       images:
       - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content : "Infrastructure services includes a full spectrum of Cloud/Data Services, End User Services/ End User Computing, Service Integration offerings, and Cybersecurity Services—and all services are designed to work in combination with each other"
       button:
         enable : true
         label : "Check it out"
