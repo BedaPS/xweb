@@ -21,27 +21,27 @@ feature:
     # feature item loop
     - name : "Pharmacy Management System"
       icon : "ti-package"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Pharmacy Management Software application that truly acts as the hub for all pharmacy management activities, including prescription dispensing, fully automated refills and reminders, workflow management, medication therapy management and STAR ratings management"
       
     # feature item loop
-    - name : "Laboratory Management Systm"
+    - name : "Laboratory Management System"
       icon : "ti-alarm-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "A Laboratory Information Management System (LIMS) is software that allows you to effectively manage samples and associated data. By using a LIMS, your lab can automate workflows, integrate instruments, and manage samples and associated information."
       
     # feature item loop
     - name : "University Management System"
       icon : "ti-credit-card"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "UNIVERSITY MANAGEMENT SYSTEM (UMS) is a flagship product of Easy Solution which covers all aspects of Universities, Colleges or Schools. EUMS covers every minute aspects of a universities work flow and integrates all processes with user friendly interface"
       
     # feature item loop
     - name : "Student Information System"
       icon : "ti-headphone-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Student Information Sytem(SIS) module under MP Education Portal will provide all the required information about student like student's qualification,address,school details etc. "
       
     # feature item loop
     - name : "Infrastructure Management Services "
       icon : "ti-cloud-up"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "IT infrastructure management is to provide structure and control of the functions responsible for diverse technical operations which generally involve hardware, software, and networking in both physical and virtual environments. The main goal is to minimize downtime and maintain business productivity"
       
 
 
