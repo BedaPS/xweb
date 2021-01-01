@@ -11,7 +11,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Services We Offer"
+  title : "Services We Offer--------------------------"
   feature_item:
     # feature item loop
     - name : "Hospital Management System"
