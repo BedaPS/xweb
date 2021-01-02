@@ -104,7 +104,7 @@ call_to_action:
   enable : true
   title : "Contact for Support?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Our commitment to innovation is deeply ingrained and is at the heart of everything we do. Bottom Up Disruption (BUD) is about crowdsourcing ideas and bringing them to reality. In 2015, we launched Customer Value Addition (CVA), doing something new, every day, for every customer. Our Automateers (engineers with a deep-rooted passion for automation), help in identifying opportunities for automation to our clients. 45% of our employees participate in Brainbox with a passion to make a difference. About 90% of our CVAs are themed around automation. Brainbox gives Hexawarians the freedom to indulge in client-centric innovation using automation and disrupt from bottom up. It's a unique platform that harnesses the creativity and innovation potential of our employees at the grassroots."
   button:
     enable : true
     label : "Contact Us"
