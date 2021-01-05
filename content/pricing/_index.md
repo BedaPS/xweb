@@ -53,7 +53,7 @@ call_to_action:
   enable : true
   title : "Need a larger plan?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "Sekhar Raju, Phone no. +91 9938989276"
   button:
     enable : true
     label : "Contact Us"
