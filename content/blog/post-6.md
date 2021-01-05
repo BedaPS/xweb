@@ -1,12 +1,12 @@
 ---
-title: "Adversus is a web-based dialer and practical CRM solution"
+title: "Monitor and Manage Student Screens In Real Time"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "images/blog/post-6.jpg"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "This is meta description"
+description: "Monitor and Manage Student Screens In Real Time"
 # post draft
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 #### Heading example
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Students are not always on task when they should be. They may try to play games, explore social media, or browse the web. With Vision, you can see everything your students are doing on their computers. Be able to see at a glance who is on track and who needs some extra help.
 
 # Heading 1 
 <br>
