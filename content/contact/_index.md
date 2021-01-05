@@ -2,14 +2,13 @@
 title: "Contact Us"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Contact Us"
 draft: false
 ---
 
 
-### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
 
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+
+* **Phone: +91 9938989276** 
+* **Mail: info@xinhilo.co.in**
+* **Address: 424, K7, Kalinganagar, Bhubaneswar, Odisha 751030**
