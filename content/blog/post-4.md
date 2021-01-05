@@ -1,12 +1,12 @@
 ---
-title: "Adversus is a web-based dialer and practical CRM solution"
+title: "Save Time by Opening the Same URL on Every Student Device"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "images/blog/post-4.jpg"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "This is meta description"
+description: "Save Time by Opening the Same URL on Every Student Device"
 # post draft
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 #### Heading example
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Students can have trouble navigating to certain websites, especially if they have long URLs. With the push URL feature, this issue disappears. Simply type or paste the URL that you want your students to navigate to into the feature and send it out to all or a select few of your students.
 
 # Heading 1 
 <br>
