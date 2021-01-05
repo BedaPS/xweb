@@ -1,12 +1,12 @@
 ---
-title: "Adversus is a web-based dialer and practical CRM solution"
+title: "Tips for Teaching Hybrid & Online Classes"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "images/blog/post-1.jpg"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "This is meta description"
+description: "Tips for Teaching Hybrid & Online Classes"
 # post draft
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 #### Heading example
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Last spring, teachers from traditionally brick-and-mortar classrooms got a taste of remote teaching. Those experiences offered insight into new considerations in how classes must operate this fall. Here are some quick tips, as well as links to more in-depth resources, that can help ease the transition from classroom teaching to an online or hybrid teaching model. use `#` for heading 1 and use `######` for heading 6.
 
 # Heading 1 
 <br>
@@ -79,8 +79,13 @@ Some text to show that the reference links can follow later.
 
 ##### Paragraph
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
+Teaching online is still teaching. Many of the same engagement theories from in-person teaching still apply online. Student-centered active learning online still includes real-world problem-solving opportunities, experimental methods that guide students toward a conclusion, and thinking and discussing learning activities.
 
+Unfortunately, not all students and teachers will be working in optimal, distraction-free environments. So one of the most important things to remember about engagement this fall is that students, their families and teachers will all need a little extra grace as they cope with other worries and stressors.
+
+Find new engagement indicators. Classroom teachers have traditionally been able to capture a quick measure of student engagement by just looking at their faces. Are they curious, interested or passionate about class activities? While you may still be able to measure engagement visually during video-oriented synchronous online sessions, classes this fall will have many more scenarios where this won’t be possible. Much of the work students will be doing won’t be on camera, so educators may need to find new indicators of engagement.
+
+Here are a few engagement measures to consider: Are students logging on often? Are they submitting their work on time? Are they reacting to the learning in some way, by asking question and seeking additional resources? Are they responding to feedback and is their voice apparent in classroom forums and boards? These are all indicators of how well a student is connecting with class topics.
 <hr>
 
 ##### Ordered List
