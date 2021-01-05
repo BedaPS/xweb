@@ -14,7 +14,7 @@ draft: false
 
 #### Heading example
 
-Last spring, teachers from traditionally brick-and-mortar classrooms got a taste of remote teaching. Those experiences offered insight into new considerations in how classes must operate this fall. Here are some quick tips, as well as links to more in-depth resources, that can help ease the transition from classroom teaching to an online or hybrid teaching model. use `#` for heading 1 and use `######` for heading 6.
+Last spring, teachers from traditionally brick-and-mortar classrooms got a taste of remote teaching. Those experiences offered insight into new considerations in how classes must operate this fall. Here are some quick tips, as well as links to more in-depth resources, that can help ease the transition from classroom teaching to an online or hybrid teaching model. 
 
 # Heading 1 
 <br>
