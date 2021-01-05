@@ -6,7 +6,7 @@ image: "images/blog/post-2.jpg"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "This is meta description"
+"description: "Setting Up Your Online Learning Environment"
 # post draft
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 #### Heading example
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Setting Up Your Online Learning Environment.
 
 # Heading 1 
 <br>
@@ -79,7 +79,7 @@ Some text to show that the reference links can follow later.
 
 ##### Paragraph
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
+As you consider your online learning environment, we have some tips and suggestions we have gathered from our customers and educational experts. Interested in what other districts have done?  Visit the SETDA eLearning district plans page, or Learning Keeps Going  for a resources directory.  Another great resource is Google’s Teach from Home resource hub and Microsoft EDU’s remote learning page. 
 
 <hr>
 
