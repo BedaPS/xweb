@@ -7,9 +7,9 @@ draft: false
 
 basic:
   name : "Basic Plan"
-  price: "$49"
+  price: "Rs.20"
   price_per : "month"
-  info : "Best For Small Individuals"
+  info : "Best for Small and Medium School"
   services:
   - "Express Service"
   - "Customs Clearance"
@@ -21,9 +21,9 @@ basic:
     
 professional:
   name : "Professional Plan"
-  price: "$49"
+  price: "Rs. 20"
   price_per : "month"
-  info : "Best For Professionals"
+  info : "Best For Large School"
   services:
   - "Express Service"
   - "Customs Clearance"
@@ -37,9 +37,9 @@ professional:
     
 business:
   name : "Business Plan"
-  price: "$49"
+  price: "Rs. 50"
   price_per : "month"
-  info : "Best For Large Individuals"
+  info : "Best For University"
   services:
   - "Express Service"
   - "Customs Clearance"
