@@ -21,7 +21,7 @@ basic:
     
 professional:
   name : "Professional Plan"
-  price: "Rs. 20"
+  price: "Rs. 50"
   price_per : "month"
   info : "Best For Large School"
   services:
@@ -37,7 +37,7 @@ professional:
     
 business:
   name : "Business Plan"
-  price: "Rs. 50"
+  price: "Rs. 100"
   price_per : "month"
   info : "Best For University"
   services:
