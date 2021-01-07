@@ -9,7 +9,7 @@ paginate = "3"
 # post excerpt
 summaryLength = "15"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "" # get your shortname form here : http://xnihilo.co.in/
 # google analytics
 googleAnalytics = "" # example : UA-123-45
 # unsafe html
@@ -103,7 +103,7 @@ URL = "faq"
 logo = "images/logo.png"
 logo_width = "400px"
 # Meta data
-description = "This is meta description"
+description = "X-nihilo Technologies"
 author = "Themefisher"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -112,9 +112,9 @@ contact_form_action = "#" # contact form works with https://formspree.io
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "424, K7, Kalinganagar, Bhubaneswar, Odisha Pin-751030"
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Design By X-nihilo Technologies"
 
 # Preloader
 [params.preloader]
