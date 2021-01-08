@@ -6,7 +6,7 @@ image: "images/blog/post-2.jpg"
 # post type (regular/featured)
 type: "regular"
 # meta description
-"description: "Setting Up Your Online Learning Environment"
+description: "Setting Up Your Online Learning Environment"
 # post draft
 draft: false
 ---
