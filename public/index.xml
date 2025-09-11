@@ -2,64 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xnihilo Technologies</title>
-    <link>https://xnihilo.co.in/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Xnihilo Technologies</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate><atom:link href="https://xnihilo.co.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>https://xnihilo.co.in/blog/post-1/</link>
+      <title>5 Tips for Keeping Your Students Focused During Distance Learning</title>
+      <link>http://localhost:1313/blog/post-3/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-1/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>http://localhost:1313/blog/post-3/</guid>
+      <description>&lt;p&gt;Keeping students focused during a typical classroom experience can be a struggle. Add distance learning to the mix and the opportunity for students to get distracted is even more prevalent. Hope is not lost though.&lt;/p&gt;&#xA;&lt;p&gt;Your students are most likely using technology during the distance learning process. This technology can be leveraged in a way that is helpful for keeping your students on-task during class time.&lt;/p&gt;&#xA;&lt;p&gt;Check out the five easiest ways to keep your students focused during distance learning.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>https://xnihilo.co.in/blog/post-4/</link>
+      <title>Introducing Vision Student Safety</title>
+      <link>http://localhost:1313/blog/post-5/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-4/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>http://localhost:1313/blog/post-5/</guid>
+      <description>&lt;p&gt;As educators, your goal is to not only teach your students but to also keep them safe. With technology a focal point of the classroom, you now have to make sure that students are using their school-provided devices appropriately and safely. It is time to focus on blocking the problems that come with internet browsing before they happen. Enter in Vision Student Safety.&lt;/p&gt;&#xA;&lt;p&gt;What is Vision Student Safety?&#xA;Vision Student Safety is an essential tool to keep students safe online, both in the classroom and during remote learning. It is the new reliable and affordable content filtering tool designed for Chromebooks.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>https://xnihilo.co.in/blog/post-5/</link>
+      <title>Monitor and Manage Student Screens In Real Time</title>
+      <link>http://localhost:1313/blog/post-6/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-5/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>http://localhost:1313/blog/post-6/</guid>
+      <description>&lt;p&gt;Students are not always on task when they should be. They may try to play games, explore social media, or browse the web. With Vision, you can see everything your students are doing on their computers. Be able to see at a glance who is on track and who needs some extra help.&lt;/p&gt;&#xA;&lt;p&gt;If you have a daily schedule that includes specific time when students should be working, you can use Vision to monitor and assist as needed.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Adversus is a web-based dialer and practical CRM solution</title>
-      <link>https://xnihilo.co.in/blog/post-6/</link>
-      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-6/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
-    </item>
-    
     <item>
       <title>Pump-up the team morale and celebrate the excellence</title>
-      <link>https://xnihilo.co.in/blog/post-2/</link>
+      <link>http://localhost:1313/blog/post-2/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-2/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>http://localhost:1313/blog/post-2/</guid>
+      <description>&lt;h4 id=&#34;heading-example&#34;&gt;Heading example&lt;/h4&gt;&#xA;&lt;p&gt;Setting Up Your Online Learning Environment.&lt;/p&gt;&#xA;&lt;p&gt;As you consider your online learning environment, we have some tips and suggestions we have gathered from our customers and educational experts. Interested in what other districts have done?  Visit the SETDA eLearning district plans page, or Learning Keeps Going  for a resources directory.  Another great resource is Google’s Teach from Home resource hub and Microsoft EDU’s remote learning page.&lt;/p&gt;&#xA;&lt;p&gt;Keep Your Students on the Correct Web Sites&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>screens with built in Present and Dismiss animations.</title>
-      <link>https://xnihilo.co.in/blog/post-3/</link>
+      <title>Save Time by Opening the Same URL on Every Student Device</title>
+      <link>http://localhost:1313/blog/post-4/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
-      
-      <guid>https://xnihilo.co.in/blog/post-3/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+      <guid>http://localhost:1313/blog/post-4/</guid>
+      <description>&lt;p&gt;Students can have trouble navigating to certain websites, especially if they have long URLs. With the push URL feature, this issue disappears. Simply type or paste the URL that you want your students to navigate to into the feature and send it out to all or a select few of your students.&lt;/p&gt;&#xA;&lt;p&gt;Share Teacher&amp;rsquo;s Screens&lt;/p&gt;&#xA;&lt;p&gt;Easily facilitate learning by sharing your screen on every student device. Everyone in your class gets a front row view.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Tips for Teaching Hybrid &amp; Online Classes</title>
+      <link>http://localhost:1313/blog/post-1/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      <guid>http://localhost:1313/blog/post-1/</guid>
+      <description>&lt;p&gt;Last spring, teachers from traditionally brick-and-mortar classrooms got a taste of remote teaching. Those experiences offered insight into new considerations in how classes must operate this fall. Here are some quick tips, as well as links to more in-depth resources, that can help ease the transition from classroom teaching to an online or hybrid teaching model.&lt;/p&gt;&#xA;&lt;p&gt;Monitor and Manage Student Screens In Real Time&lt;/p&gt;&#xA;&lt;p&gt;Students are not always on task when they should be. They may try to play games, explore social media, or browse the web. With Vision, you can see everything your students are doing on their computers. Be able to see at a glance who is on track and who needs some extra help.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
