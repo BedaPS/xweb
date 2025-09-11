@@ -5,7 +5,8 @@ theme = "bigspring"
 languageName = "En"
 
 # post pagination
-paginate = "3"
+[pagination]
+pagerSize = 3
 # post excerpt
 summaryLength = "15"
 # disqus short name

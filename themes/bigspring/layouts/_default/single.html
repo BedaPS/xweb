@@ -12,7 +12,7 @@
         <div class="content">{{.Content}}</div>
         
         <!-- comments -->
-        {{ if site.DisqusShortname }}
+        {{ if site.Params.disqusShortname }}
         <div class="mt-5">
           {{ template "_internal/disqus.html" . }}
         </div>
