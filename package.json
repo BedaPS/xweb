@@ -7,7 +7,9 @@
     "dev": "hugo server --port 1313",
     "serve": "hugo server",
     "clean": "rimraf public",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "tina:dev": "tinacms dev -c \"hugo server -D\"",
+    "tina:build": "tinacms build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "firebase-tools": "^14.16.0",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "@tinacms/cli": "^1.5.30",
+    "tinacms": "^1.5.30"
   }
 }
