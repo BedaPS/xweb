@@ -2,60 +2,59 @@
 title: "Pricing"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Flexible plans for schools and enterprises."
 draft: false
 
 basic:
-  name : "Basic Plan"
-  price: "Rs.20"
-  price_per : "month"
-  info : "Best for Small and Medium School"
+  name: "Basic"
+  price: "₹20"
+  price_per: "month"
+  info: "For small and medium schools"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
+    - "Core features"
+    - "Email support"
+    - "Standard dashboard"
   button:
-    enable : true
-    label : "Get started for free"
-    link : "#"
-    
+    enable: true
+    label: "Start with Basic"
+    link: "contact"
+
 professional:
-  name : "Professional Plan"
-  price: "Rs. 50"
-  price_per : "month"
-  info : "Best For Large School"
+  name: "Professional"
+  price: "₹50"
+  price_per: "month"
+  info: "For large schools"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
-  - "Cloud Service"
-  - "Best Dashboard"
+    - "Everything in Basic"
+    - "Advanced analytics"
+    - "Cloud backups"
+    - "Priority support"
   button:
-    enable : true
-    label : "Get started for free"
-    link : "#"
-    
+    enable: true
+    label: "Talk to Sales"
+    link: "contact"
+
 business:
-  name : "Business Plan"
-  price: "Rs. 100"
-  price_per : "month"
-  info : "Best For University"
+  name: "Enterprise"
+  price: "Custom"
+  price_per: ""
+  info: "For universities and enterprises"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
+    - "Custom integrations"
+    - "SLA & dedicated support"
+    - "Security & compliance"
   button:
-    enable : true
-    label : "Get started for free"
-    link : "#"
+    enable: true
+    label: "Request a Quote"
+    link: "contact"
 
 call_to_action:
-  enable : true
-  title : "Need a larger plan?"
-  image : "images/cta.svg"
-  content : "Sekhar Raju, Phone no. +91 9938989276"
+  enable: true
+  title: "Not sure which plan fits?"
+  image: "images/cta.svg"
+  content: "Speak with our team to tailor a plan for your needs."
   button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+    enable: true
+    label: "Contact Us"
+    link: "contact"
 ---

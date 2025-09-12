@@ -1,24 +1,28 @@
 ---
-title: "SUPPORT"
+title: "FAQ"
 subtitle: ""
 # meta description
-description: "SUPPORT"
+description: "Answers to common questions about our services, delivery, and support."
 draft: false
 ---
 
-
-{{< faq "Our Data Privacy Commitment" >}}
-At Vision, we are committed to protecting the privacy of our customers and of their students. We have extensive experience in safeguarding data, as well as helping our customers comply with the highest standards of security while supporting effective use of student information. We earn our customers’ trust by safeguarding their data, and therefore we are continuously looking for ways to strengthen our privacy practices and protections both in the way we design our products and services, as well as in our internal operations.
+{{< faq "How do you engage with new projects?" >}}
+We start with a short discovery to clarify objectives, constraints, and success metrics. From there, we propose a plan with scope, timeline, and milestones.
 {{</ faq >}}
 
-{{< faq "Student Privacy Pledge 2020" >}}
-The Future of Privacy Forum (FPF) and The Software & Information Industry Association (SIIA) introduced a Student Privacy Pledge to safeguard student privacy regarding the collection, maintenance, and use of student personal information. The commitments are intended to concisely detail existing federal law and regulatory guidance regarding the collection and handling of student data, and to encourage service providers to more clearly articulate these practices. FPF and SIIA recently updated the Student Privacy Pledge in our Pledge 2020 process.
+{{< faq "What industries do you support?" >}}
+We work across education, healthcare, and enterprise services, with solutions spanning LIMS/HMS, SIS/UMS, and e‑commerce/CMS platforms.
 {{</ faq >}}
 
-{{< faq "A content filter that is simple and saves money" >}}
-No up-front costs for hardware, and more flexibility and scalability.
-See websites visited during class sessions.
-AI powered, real-time protection.
-Worry-free protection against offensive content online
+{{< faq "How do you ensure security and compliance?" >}}
+We follow secure SDLC practices, role‑based access, encryption in transit and at rest, and audit logging. Compliance needs (e.g., HIPAA) can be addressed per engagement.
+{{</ faq >}}
+
+{{< faq "What support do you provide post‑launch?" >}}
+We offer tiered support (business hours or 24×7), SLAs on incident response, and scheduled maintenance windows.
+{{</ faq >}}
+
+{{< faq "What is the typical timeline?" >}}
+Timelines vary by scope. A focused MVP can ship in 4–8 weeks; larger implementations typically run 8–16 weeks.
 {{</ faq >}}
 

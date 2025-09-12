@@ -6,7 +6,7 @@
     "build": "hugo --minify --cleanDestinationDir",
     "dev": "hugo server --port 1313",
     "serve": "hugo server",
-    "clean": "rm -rf public",
+    "clean": "rimraf public",
     "deploy": "npm run build && firebase deploy"
   },
   "repository": {
@@ -16,6 +16,7 @@
   "author": "Xnihilo Technologies",
   "license": "MIT",
   "devDependencies": {
-    "firebase-tools": "^14.16.0"
+    "firebase-tools": "^14.16.0",
+    "rimraf": "^6.0.1"
   }
 }
