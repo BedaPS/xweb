@@ -1,11 +1,11 @@
 ####################### Banner #########################
 banner:
-  title : "We provide cost-effective solutions harnessing the power of open source technologies. Expertise in various open source technologies like E-commerce applications , Content Managemnet Systems , Frameworks and much more <br> development challenges"
+  title : "Pragmatic, open-source engineering for measurable results.<br>Deep expertise in e-commerce, CMS, and modern frameworks."
   image : "images/banner-art.svg"
-  content : "We Offer High quality services, Cost-effective solutions for suitability as per requirements of client. "
+  content : "Tailored services delivered efficiently, with measurable results."
   button:
     enable : true
-    label : "Contact With Us"
+    label : "Contact Us"
     link : "contact"
 
 ##################### Feature ##########################
@@ -16,32 +16,32 @@ feature:
     # feature item loop
     - name : "Hospital Management System"
       icon : "ti-pulse"
-      content : "The hospital management system (HMS) is an integrated software that handles different directions of clinic workflows. It manages the smooth healthcare performance along with administrative, medical, legal and financial control. That is a cornerstone for the successful operation of the healthcare facility"
+      content : "An integrated HMS to streamline clinical workflows and manage administrative, medical, legal, and financial operations for reliable performance."
       
     # feature item loop
     - name : "Pharmacy Management System"
       icon : "ti-package"
-      content : "Pharmacy Management Software application that truly acts as the hub for all pharmacy management activities, including prescription dispensing, fully automated refills and reminders, workflow management, medication therapy management and STAR ratings management"
+      content : "A central platform for dispensing, automated refills and reminders, workflow management, and medication therapy management."
       
     # feature item loop
-    - name : "Laboratory Management System"
+    - name : "Laboratory Information Management System"
       icon : "ti-alarm-clock"
-      content : "A Laboratory Information Management System (LIMS) is software that allows you to effectively manage samples and associated data. By using a LIMS, your lab can automate workflows, integrate instruments, and manage samples and associated information."
+      content : "Effectively manage samples and associated data, automate lab workflows, and integrate instruments for consistent, high‑quality results."
       
     # feature item loop
     - name : "University Management System"
       icon : "ti-credit-card"
-      content : "UNIVERSITY MANAGEMENT SYSTEM (UMS) is a flagship product of Easy Solution which covers all aspects of Universities, Colleges or Schools. EUMS covers every minute aspects of a universities work flow and integrates all processes with user friendly interface"
+      content : "A comprehensive UMS for universities, colleges, and schools covering academic, administrative, and financial processes with a user‑friendly interface."
       
     # feature item loop
     - name : "Student Information System"
       icon : "ti-headphone-alt"
-      content : "Student Information Sytem(SIS) module under MP Education Portal will provide all the required information about student like student's qualification,address,school details etc. "
+      content : "A scalable SIS to manage student demographics, academic records, enrollment, and institution details from a single source of truth."
       
     # feature item loop
-    - name : "Infrastructure Management Services "
+    - name : "Infrastructure Management Services"
       icon : "ti-cloud-up"
-      content : "IT infrastructure management is to provide structure and control of the functions responsible for diverse technical operations which generally involve hardware, software, and networking in both physical and virtual environments. The main goal is to minimize downtime and maintain business productivity"
+      content : "End‑to‑end management across on‑prem and cloud to minimize downtime, improve performance, and enhance productivity."
       
 
 
@@ -50,22 +50,22 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "The main advantages of LIS"
+    - title : "Key Advantages of LIS"
       images:
       - "images/service-1.png"
       - "images/service-2.png"
       - "images/service-3.png"
-      content : "IT infrastructure management is to provide structure and control of the functions responsible for diverse technical operations which generally involve hardware, software, and networking in both physical and virtual environments. The main goal is to minimize downtime and maintain business productivity"
+      content : "Optimize lab throughput with standardized workflows, integrated instrumentation, and reliable data management to support compliance and scale."
       button:
         enable : true
         label : "Check it out"
         link : "#"
         
     # service item loop
-    - title : "Cloud/Data Services and security"
+    - title : "Cloud, Data, and Security Services"
       images:
       - "images/service-1.png"
-      content : "Infrastructure services includes a full spectrum of Cloud/Data Services, End User Services/ End User Computing, Service Integration offerings, and Cybersecurity Services—and all services are designed to work in combination with each other"
+      content : "Cloud and data platforms, end‑user computing, service integration, and cybersecurity — designed to work together for resilience and scale."
       button:
         enable : true
         label : "Check it out"
@@ -75,11 +75,7 @@ service:
     - title : "Healthcare Payer Services"
       images:
       - "images/service-2.png"
-      content : "X-nihilo brings in deep domain expertise in claims management services using processes that are compliant to global standards. Our processes leverage the use of home grown automation that have been incorporated on large scale client engagements. By making use of our Payer solutions, you will be able to create digital member engagement and other aspects that are critical to your business growth.
-
-Our solution works collaboratively with social media to stop revenue leakages that may result from inflated claims billing. Intelligent and robust reporting structure provides 360 degree view of your entire claims function.
-
-X-nihilo’s Business Process Services help in reducing administrative costs, meeting regulatory compliances and enhancing the patient experience. X-nihilo’s experience with healthcare services and cutting-edge digital transformation stands us in good stead to assist our clients. We have leveraged automation extensively through our healthcare clients whether it claims adjudication or revenue cycle management. With our extensive domain talent and our 13+ years of experience working with Payers and Providers, we are in an excellent position to drive future proof digital operations while helping our clients elevate customer experience and maintain cost competitiveness."
+      content : "Xnihilo brings deep domain expertise in claims operations and payer solutions. We apply automation and data‑driven insight to reduce administrative cost, strengthen compliance, and enhance member experience across adjudication and revenue cycles."
       button:
         enable : true
         label : "Check it out"
@@ -89,9 +85,7 @@ X-nihilo’s Business Process Services help in reducing administrative costs, me
     - title : "Business Process Transformation in Healthcare"
       images:
       - "images/service-3.png"
-      content : "The healthcare industry faces multiple challenges across all fronts, be it service delivery, business models, regulations, cost pressures and emerging competition from non-traditional players. This underscores the need to bring in business process partners, while keeping the customer experience at the heart of all operations. It is imperative to leverage data, analytics, Machine Learning, Artificial Intelligence, mobile and population health management platforms.
-
-X-nihilo’s Business Process Services help in reducing administrative costs, meeting regulatory compliances and enhancing the patient experience. Hexaware’s experience with healthcare services and cutting-edge digital transformation stands us in good stead to assist our clients. We have leveraged automation extensively through our healthcare clients whether it claims adjudication or revenue cycle management. With our extensive domain talent and our 13+ years of experience working with Payers and Providers, we are in an excellent position to drive future proof digital operations while helping our clients elevate customer experience and maintain cost competitiveness."
+      content : "Healthcare organizations face evolving expectations, regulations, and cost pressures. We help re‑engineer processes with data, analytics, and automation to improve outcomes, accelerate value, and deliver better patient and member experiences."
       button:
         enable : true
         label : "Check it out"
@@ -100,7 +94,7 @@ X-nihilo’s Business Process Services help in reducing administrative costs, me
 ################### Screenshot ########################
 screenshot:
   enable : true
-  title : "Maximize your Salesforce"
+  title : "Maximize Your Salesforce ROI"
   image : "images/screenshot.svg"
 
   
@@ -108,9 +102,9 @@ screenshot:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Contact for Support?"
+  title : "Need Guidance or Support?"
   image : "images/cta.svg"
-  content : "Our commitment to innovation is deeply ingrained and is at the heart of everything we do. Bottom Up Disruption (BUD) is about crowdsourcing ideas and bringing them to reality. In 2015, we launched Customer Value Addition (CVA), doing something new, every day, for every customer. Our Automateers (engineers with a deep-rooted passion for automation), help in identifying opportunities for automation to our clients. 45% of our employees participate in Brainbox with a passion to make a difference. About 90% of our CVAs are themed around automation. Brainbox gives the freedom to indulge in client-centric innovation using automation and disrupt from bottom up. It's a unique platform that harnesses the creativity and innovation potential of our employees at the grassroots."
+  content : "We partner with clients to solve real business problems using open‑source technologies, modern engineering, and automation. Tell us your goals — we’ll help you get there."
   button:
     enable : true
     label : "Contact Us"

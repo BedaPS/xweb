@@ -8,7 +8,7 @@ languageName = "En"
 [pagination]
 pagerSize = 3
 # post excerpt
-summaryLength = "15"
+summaryLength = 15
 # disqus short name
 disqusShortname = "" # get your shortname form here : http://xnihilo.co.in/
 # google analytics
@@ -62,7 +62,7 @@ weight = 4
 # footer menu left
 [[menu.footer_left]]
 name = "About Us"
-URL = "#"
+URL = "about"
 
 [[menu.footer_left]]
 name = "Quick Start"
@@ -104,8 +104,9 @@ URL = "faq"
 logo = "images/logo.png"
 logo_width = "400px"
 # Meta data
-description = "X-nihilo Technologies"
-author = "Themefisher"
+description = "Xnihilo Technologies"
+author = "Xnihilo Technologies"
+og_default_image = "images/og-default.jpg"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -113,9 +114,9 @@ contact_form_action = "#" # contact form works with https://formspree.io
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
-footer_content = "424, K7, Kalinganagar, Bhubaneswar, Odisha Pin-751030"
+footer_content = "424, K7, Kalinganagar, Bhubaneswar, Odisha 751030"
 # copyright
-copyright = "Design By X-nihilo Technologies"
+copyright = "Design by Xnihilo Technologies"
 
 # Preloader
 [params.preloader]
