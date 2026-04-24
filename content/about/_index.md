@@ -4,13 +4,18 @@ description: "About Xnihilo Technologies"
 draft: false
 ---
 
-Xnihilo Technologies is a technology services company focused on delivering practical, cost-effective solutions using open-source platforms and modern engineering practices. We partner with organizations to design, build, and scale digital products and enterprise systems that are reliable, secure, and easy to evolve.
+## What we do
 
-Our capabilities span:
+Xnihilo Technologies is a technology services company focused on delivering practical, cost-effective solutions using open-source platforms and modern engineering practices. We partner with organizations to design, build, modernize, and support digital products and enterprise systems that need to stay reliable, secure, and easy to evolve.
 
-- Product engineering across eCommerce, CMS, and custom applications
-- Data, integrations, and workflow automation
-- Cloud and infrastructure management (on-prem and multi-cloud)
-- Healthcare solutions including LIMS, HMS, and payer operations
+## Where we create value
 
-We combine domain expertise with an outcome‑oriented approach — prioritizing clarity, measurable impact, and long‑term maintainability.
+- Healthcare operations and clinical systems
+- Laboratory, payer, and workflow-heavy platforms
+- Education and institutional systems
+- Product engineering for CMS, commerce, and custom applications
+- Cloud, automation, and managed infrastructure services
+
+## How we work
+
+We prefer clarity over hype. That means tighter discovery, cleaner architecture, measurable delivery, and solutions that teams can maintain after launch. Our goal is not just to ship software, but to reduce friction in the systems people depend on every day.

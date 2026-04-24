@@ -1,28 +1,26 @@
 ---
 title: "FAQ"
 subtitle: ""
-# meta description
 description: "Answers to common questions about our services, delivery, and support."
 draft: false
 ---
 
 {{< faq "How do you engage with new projects?" >}}
-We start with a short discovery to clarify objectives, constraints, and success metrics. From there, we propose a plan with scope, timeline, and milestones.
+We start with a short discovery to understand objectives, constraints, integrations, and success metrics. From there, we recommend a practical scope, timeline, and delivery approach.
 {{</ faq >}}
 
-{{< faq "What industries do you support?" >}}
-We work across education, healthcare, and enterprise services, with solutions spanning LIMS/HMS, SIS/UMS, and e‑commerce/CMS platforms.
+{{< faq "What kinds of organizations do you support?" >}}
+We work with healthcare, education, and enterprise operations teams, especially when the work involves complex workflows, integrations, or modernization challenges.
 {{</ faq >}}
 
-{{< faq "How do you ensure security and compliance?" >}}
-We follow secure SDLC practices, role‑based access, encryption in transit and at rest, and audit logging. Compliance needs (e.g., HIPAA) can be addressed per engagement.
+{{< faq "How do you approach security and compliance?" >}}
+We build with secure delivery practices, role-based access, encryption, and auditability in mind. When a project has specific compliance requirements, we factor those into architecture and implementation decisions early.
 {{</ faq >}}
 
-{{< faq "What support do you provide post‑launch?" >}}
-We offer tiered support (business hours or 24×7), SLAs on incident response, and scheduled maintenance windows.
+{{< faq "What happens after launch?" >}}
+We can continue with managed support, optimization work, and structured maintenance so teams are not left with a system that is hard to operate or extend.
 {{</ faq >}}
 
-{{< faq "What is the typical timeline?" >}}
-Timelines vary by scope. A focused MVP can ship in 4–8 weeks; larger implementations typically run 8–16 weeks.
+{{< faq "What is a typical project timeline?" >}}
+Timelines depend on scope. A focused discovery or modernization sprint may take a few weeks, while larger platform initiatives are usually planned in phases with clear milestones.
 {{</ faq >}}
-

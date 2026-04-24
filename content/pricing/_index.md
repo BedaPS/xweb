@@ -1,58 +1,57 @@
 ---
-title: "Pricing"
+title: "Engagement Models"
 subtitle: ""
-# meta description
-description: "Flexible plans for schools and enterprises."
+description: "Flexible ways to work with Xnihilo Technologies."
 draft: false
 
 basic:
-  name: "Basic"
-  price: "₹20"
-  price_per: "month"
-  info: "For small and medium schools"
+  name: "Discovery Sprint"
+  price: "2-4"
+  price_per: "weeks"
+  info: "For audits, planning, architecture review, and roadmap clarity."
   services:
-    - "Core features"
-    - "Email support"
-    - "Standard dashboard"
+    - "Stakeholder and workflow discovery"
+    - "Architecture and platform review"
+    - "Delivery plan with priorities"
   button:
     enable: true
-    label: "Start with Basic"
+    label: "Start a discovery"
     link: "contact"
 
 professional:
-  name: "Professional"
-  price: "₹50"
-  price_per: "month"
-  info: "For large schools"
+  name: "Build and Modernize"
+  price: "6+"
+  price_per: "weeks"
+  info: "For platform delivery, modernization, integrations, and automation."
   services:
-    - "Everything in Basic"
-    - "Advanced analytics"
-    - "Cloud backups"
-    - "Priority support"
+    - "Product and platform engineering"
+    - "Workflow automation and integration work"
+    - "Structured milestones and delivery visibility"
+    - "Security and operational alignment"
   button:
     enable: true
-    label: "Talk to Sales"
+    label: "Talk to our team"
     link: "contact"
 
 business:
-  name: "Enterprise"
+  name: "Managed Partnership"
   price: "Custom"
   price_per: ""
-  info: "For universities and enterprises"
+  info: "For ongoing support, optimization, and long-term technical ownership."
   services:
-    - "Custom integrations"
-    - "SLA & dedicated support"
-    - "Security & compliance"
+    - "Managed support and maintenance"
+    - "Continuous improvement and optimization"
+    - "Operational collaboration and advisory"
   button:
     enable: true
-    label: "Request a Quote"
+    label: "Request a conversation"
     link: "contact"
 
 call_to_action:
   enable: true
-  title: "Not sure which plan fits?"
+  title: "Not sure which model fits best?"
   image: "images/cta.svg"
-  content: "Speak with our team to tailor a plan for your needs."
+  content: "Tell us what you are trying to improve, and we will help shape the right starting point."
   button:
     enable: true
     label: "Contact Us"

@@ -1,111 +1,137 @@
 ####################### Banner #########################
 banner:
-  title : "Pragmatic, open-source engineering for measurable results.<br>Deep expertise in e-commerce, CMS, and modern frameworks."
-  image : "images/banner-art.svg"
-  content : "Tailored services delivered efficiently, with measurable results."
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+  eyebrow: "Architecture, delivery, and support for complex software systems"
+  title: "Engineering robust platforms for teams with real operational complexity."
+  content: "Xnihilo builds, modernizes, and supports healthcare, education, and operations systems with strong architecture, integration discipline, and production-ready engineering."
+  image: "images/banner-art.svg"
+  primary_button:
+    enable: true
+    label: "Contact Us"
+    link: "contact"
+  secondary_button:
+    enable: true
+    label: "About Xnihilo"
+    link: "about"
+  highlights:
+    - "Healthcare, payer, and laboratory systems"
+    - "CMS, commerce, and custom application engineering"
+    - "Cloud platforms, automation, and managed operations"
+  spotlight_title: "Engineering principles"
+  spotlight_item:
+    - title: "Architecture with operational context"
+      content: "We design around workflows, integration boundaries, security requirements, and failure modes so systems hold up under real use."
+    - title: "Engineering depth across the stack"
+      content: "From application design to APIs, automation, infrastructure, and delivery, implementation stays aligned with architectural intent."
+    - title: "Maintainability as a core requirement"
+      content: "We prioritize clean systems, observable behavior, and resilient foundations that are easier to extend, operate, and support."
 
 ##################### Feature ##########################
 feature:
-  enable : true
-  title : "Services We Offer"
+  enable: true
+  eyebrow: "Capability areas"
+  title: "Solutions designed for teams with complex workflows"
+  content: "We focus on systems that need reliability, interoperability, and room to evolve."
   feature_item:
-    # feature item loop
-    - name : "Hospital Management System"
-      icon : "ti-pulse"
-      content : "An integrated HMS to streamline clinical workflows and manage administrative, medical, legal, and financial operations for reliable performance."
-      
-    # feature item loop
-    - name : "Pharmacy Management System"
-      icon : "ti-package"
-      content : "A central platform for dispensing, automated refills and reminders, workflow management, and medication therapy management."
-      
-    # feature item loop
-    - name : "Laboratory Information Management System"
-      icon : "ti-alarm-clock"
-      content : "Effectively manage samples and associated data, automate lab workflows, and integrate instruments for consistent, high‑quality results."
-      
-    # feature item loop
-    - name : "University Management System"
-      icon : "ti-credit-card"
-      content : "A comprehensive UMS for universities, colleges, and schools covering academic, administrative, and financial processes with a user‑friendly interface."
-      
-    # feature item loop
-    - name : "Student Information System"
-      icon : "ti-headphone-alt"
-      content : "A scalable SIS to manage student demographics, academic records, enrollment, and institution details from a single source of truth."
-      
-    # feature item loop
-    - name : "Infrastructure Management Services"
-      icon : "ti-cloud-up"
-      content : "End‑to‑end management across on‑prem and cloud to minimize downtime, improve performance, and enhance productivity."
-      
+    - name: "Hospital and Clinical Systems"
+      icon: "ti-pulse"
+      content: "Integrated solutions for clinical, administrative, legal, and financial workflows with dependable operational visibility."
 
+    - name: "Pharmacy Operations"
+      icon: "ti-package"
+      content: "Dispensing, refill workflows, reminders, and medication management delivered through a centralized, scalable platform."
+
+    - name: "Laboratory Platforms"
+      icon: "ti-alarm-clock"
+      content: "Sample management, instrument integration, and lab workflow automation built for quality, speed, and traceability."
+
+    - name: "University and School Platforms"
+      icon: "ti-credit-card"
+      content: "Institutional systems that connect academic, administrative, and financial operations in one clear experience."
+
+    - name: "Student Information Systems"
+      icon: "ti-headphone-alt"
+      content: "Unified student records, enrollment, academic data, and reporting for institutions that need a dependable source of truth."
+
+    - name: "Infrastructure and Managed Services"
+      icon: "ti-cloud-up"
+      content: "End-to-end operations across on-prem and cloud environments to improve uptime, performance, and day-to-day resilience."
 
 ######################### Service #####################
 service:
-  enable : true
+  enable: true
+  eyebrow: "How we help"
+  title: "Flexible support across product, platform, and operations"
+  content: "Whether you need a modernized application, a new operational platform, or a dependable delivery partner, we shape engagements around the work that matters most."
   service_item:
-    # service item loop
-    - title : "Key Advantages of LIS"
+    - tag: "Operational Platforms"
+      title: "Laboratory and healthcare systems"
       images:
-      - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "Optimize lab throughput with standardized workflows, integrated instrumentation, and reliable data management to support compliance and scale."
+        - "images/service-1.png"
+        - "images/service-2.png"
+        - "images/service-3.png"
+      content: "From LIMS and HMS to payer workflows, we streamline operational complexity with robust data models, automation, and reliable reporting."
       button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Cloud, Data, and Security Services"
-      images:
-      - "images/service-1.png"
-      content : "Cloud and data platforms, end‑user computing, service integration, and cybersecurity — designed to work together for resilience and scale."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Healthcare Payer Services"
-      images:
-      - "images/service-2.png"
-      content : "Xnihilo brings deep domain expertise in claims operations and payer solutions. We apply automation and data‑driven insight to reduce administrative cost, strengthen compliance, and enhance member experience across adjudication and revenue cycles."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "Business Process Transformation in Healthcare"
-      images:
-      - "images/service-3.png"
-      content : "Healthcare organizations face evolving expectations, regulations, and cost pressures. We help re‑engineer processes with data, analytics, and automation to improve outcomes, accelerate value, and deliver better patient and member experiences."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-################### Screenshot ########################
-screenshot:
-  enable : true
-  title : "Maximize Your Salesforce ROI"
-  image : "images/screenshot.svg"
+        enable: true
+        label: "Talk about healthcare systems"
+        link: "contact"
 
-  
+    - tag: "Cloud and Data"
+      title: "Cloud, data, and security services"
+      images:
+        - "images/service-1.png"
+      content: "We align cloud platforms, data flows, end-user computing, and security controls so teams can scale with confidence."
+      button:
+        enable: true
+        label: "Plan a modernization conversation"
+        link: "contact"
+
+    - tag: "Payer Operations"
+      title: "Healthcare payer services"
+      images:
+        - "images/service-2.png"
+      content: "Xnihilo brings claims and payer-domain expertise to reduce administrative cost, strengthen compliance, and improve member experience."
+      button:
+        enable: true
+        label: "Discuss payer workflows"
+        link: "contact"
+
+    - tag: "Process Improvement"
+      title: "Business process transformation"
+      images:
+        - "images/service-3.png"
+      content: "We redesign operational workflows with automation, analytics, and practical engineering so organizations can move faster with less friction."
+      button:
+        enable: true
+        label: "Explore transformation support"
+        link: "contact"
+
+################### Delivery Approach ########################
+approach:
+  enable: true
+  eyebrow: "Delivery approach"
+  title: "A practical process that keeps projects moving"
+  content: "We work in a transparent rhythm that balances speed with clarity, architecture, and long-term maintainability."
+  item:
+    - title: "Clarify the business problem"
+      content: "We align on outcomes, constraints, integrations, and risks before turning work into delivery milestones."
+
+    - title: "Design for maintainability"
+      content: "Architecture, APIs, workflows, and operational considerations are shaped together so the system stays usable after launch."
+
+    - title: "Ship with accountability"
+      content: "We track progress through milestones, feedback loops, and measurable outcomes instead of vague transformation language."
 
 ##################### Call to action #####################
 call_to_action:
-  enable : true
-  title : "Need Guidance or Support?"
-  image : "images/cta.svg"
-  content : "We partner with clients to solve real business problems using open‑source technologies, modern engineering, and automation. Tell us your goals — we’ll help you get there."
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+  enable: true
+  title: "Need a dependable engineering partner?"
+  content: "Bring us the product gap, workflow bottleneck, modernization challenge, or support need. We will help turn it into a clear next step."
+  note: "Based in Bhubaneswar and supporting clients across healthcare, education, and enterprise operations."
+  primary_button:
+    enable: true
+    label: "Contact Us"
+    link: "contact"
+  secondary_button:
+    enable: true
+    label: "Learn About Us"
+    link: "about"

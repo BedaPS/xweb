@@ -1,13 +1,7 @@
 ---
 title: "Contact Us"
-subtitle: ""
-# meta description
-description: "Get in touch with Xnihilo Technologies."
+description: "Start a conversation with Xnihilo Technologies."
 draft: false
 ---
 
-We’d love to hear about your project or support needs.
-
-- Phone: +91-99389-89276
-- Email: info@xnihilo.co.in
-- Address: 424, K7, Kalinganagar, Bhubaneswar, Odisha 751030
+Share the business problem, system constraint, or modernization goal you are working through. We will help you identify the next practical step and the right engagement model for the work.

@@ -1,7 +1,6 @@
 ---
-title: "Manage and Make the Most of Classroom Technology"
+title: "Insights"
 subtitle: ""
-# meta description
-description: "Manage and Make the Most of Classroom Technology"
+description: "Notes on delivery, modernization, and practical engineering."
 draft: false
 ---

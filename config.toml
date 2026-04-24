@@ -4,54 +4,51 @@ title = "Xnihilo Technologies"
 theme = "bigspring"
 languageName = "En"
 
-# post pagination
 [pagination]
 pagerSize = 3
-# post excerpt
+
 summaryLength = 15
-# disqus short name
-disqusShortname = "" # get your shortname form here : http://xnihilo.co.in/
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-# unsafe html
+disqusShortname = ""
+googleAnalytics = ""
+
 [markup.goldmark.renderer]
 unsafe = true
 
 ############################# Plugins ##############################
 
-# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
+
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
+
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 
+############################## Navigation ###############################
 
-############################## navigation ###############################
-
-# main menu
 [[menu.main]]
-name = "Blog"
-URL = "blog"
+name = "Capabilities"
+URL = "/#capabilities"
 weight = 1
 
 [[menu.main]]
-name = "Pricing"
-URL = "pricing"
+name = "Delivery"
+URL = "/#delivery"
 weight = 2
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
+name = "About"
+URL = "about"
 weight = 3
 
 [[menu.main]]
@@ -59,94 +56,58 @@ name = "FAQ"
 URL = "faq"
 weight = 4
 
-# footer menu left
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 5
+
 [[menu.footer_left]]
 name = "About Us"
 URL = "about"
 
 [[menu.footer_left]]
-name = "Quick Start"
-URL = "#"
+name = "Engagement Models"
+URL = "pricing"
 
 [[menu.footer_left]]
-name = "Pricing"
-URL = "pricing"
-
-
-# footer menu middle
-[[menu.footer_middle]]
-name = "Pricing"
-URL = "pricing"
-
-[[menu.footer_middle]]
-name = "Platform"
-URL = "#"
-
-[[menu.footer_middle]]
-name = "Features"
-URL = "#"
-
-# footer menu right
-[[menu.footer_right]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-
-[[menu.footer_right]]
-name = "Terms & Conditions"
-URL = "terms-conditions"
-
-[[menu.footer_right]]
 name = "FAQ"
 URL = "faq"
 
-#################### default parameters ################################
+[[menu.footer_middle]]
+name = "Healthcare and Payer"
+URL = "/#capabilities"
+
+[[menu.footer_middle]]
+name = "Education Platforms"
+URL = "/#capabilities"
+
+[[menu.footer_middle]]
+name = "Cloud and Automation"
+URL = "/#delivery"
+
+#################### Default Parameters ################################
+
 [params]
 logo = "images/logo.png"
-logo_width = "400px"
-# Meta data
-description = "Xnihilo Technologies"
+logo_width = "210px"
+description = "Xnihilo Technologies builds dependable healthcare, education, and cloud platforms with pragmatic open-source engineering."
 author = "Xnihilo Technologies"
 og_default_image = "images/og-default.jpg"
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "#"
+footer_menu_left = "Explore"
+footer_menu_middle = "Focus Areas"
+footer_content = "Pragmatic engineering for healthcare, education, and operations teams that need dependable delivery."
+footer_tagline = "We modernize critical systems with open-source engineering, cloud expertise, and long-term maintainability."
+contact_email = "info@xnihilo.co.in"
+contact_phone = "+91-99389-89276"
+office_address = "424, K7, Kalinganagar, Bhubaneswar, Odisha 751030"
+copyright = "Xnihilo Technologies"
 
-########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
-footer_menu_right = "Support"
-footer_content = "424, K7, Kalinganagar, Bhubaneswar, Odisha 751030"
-# copyright
-copyright = "Design by Xnihilo Technologies"
-
-# Preloader
 [params.preloader]
 enable = false
-preloader = "" # use jpg, png, svg or gif format.
+preloader = ""
 
-# Navigation buttons
 [params.navigation_button]
 enable = true
-label = "Get Started"
+label = "Start a Project"
 link = "contact"
-
-  
-############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "skype"
-icon = "ti-skype" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
