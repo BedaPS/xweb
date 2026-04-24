@@ -1,0 +1,178 @@
+{{ define "main" }}
+
+{{ with site.Data.homepage.banner }}
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-shell">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+          <h1>{{ .title | markdownify }}</h1>
+          <p class="hero-copy">{{ .content | markdownify }}</p>
+          <div class="hero-actions">
+            {{ if .primary_button.enable }}
+            {{ with .primary_button }}
+            <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+            {{ if .secondary_button.enable }}
+            {{ with .secondary_button }}
+            <a href="{{ .link | absURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+          {{ with .highlights }}
+          <ul class="list-unstyled hero-highlights">
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <aside class="hero-panel">
+            {{ with .spotlight_title }}<p class="hero-panel-label">{{ . }}</p>{{ end }}
+            {{ range .spotlight_item }}
+            <div class="hero-panel-item">
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .content | markdownify }}</p>
+            </div>
+            {{ end }}
+          </aside>
+        </div>
+      </div>
+      {{ with .image }}
+      <div class="hero-art">
+        <div class="hero-art-frame">
+          <img src="{{ . | absURL }}" alt="{{ site.Title }}" class="img-fluid">
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ if site.Data.homepage.feature.enable }}
+{{ with site.Data.homepage.feature }}
+<section id="capabilities" class="section">
+  <div class="container">
+    <div class="section-heading text-center">
+      {{ with .eyebrow }}<p class="eyebrow justify-content-center">{{ . }}</p>{{ end }}
+      <h2 class="section-title">{{ .title | markdownify }}</h2>
+      {{ with .content }}<p class="section-description">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <article class="feature-card w-100">
+          <span class="feature-icon"><i class="{{ .icon }}"></i></span>
+          <h3>{{ .name | markdownify }}</h3>
+          <p>{{ .content | markdownify }}</p>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.service.enable }}
+{{ with site.Data.homepage.service }}
+<section id="delivery" class="section section-muted">
+  <div class="container">
+    <div class="section-heading text-center">
+      {{ with .eyebrow }}<p class="eyebrow justify-content-center">{{ . }}</p>{{ end }}
+      <h2 class="section-title">{{ .title | markdownify }}</h2>
+      {{ with .content }}<p class="section-description">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    {{ range $index, $item := .service_item }}
+    <article class="service-panel {{ if modBool $index 2 }}service-panel-reverse{{ end }}">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="service-media {{ if gt (len $item.images) 1 }}slider{{ end }}">
+            {{ range $item.images }}
+            <img src="{{ . | absURL }}" alt="{{ $item.title | plainify }}" class="img-fluid">
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="service-copy">
+            {{ with $item.tag }}<p class="service-tag">{{ . }}</p>{{ end }}
+            <h3>{{ $item.title | markdownify }}</h3>
+            <p>{{ $item.content | markdownify }}</p>
+            {{ if $item.button.enable }}
+            {{ with $item.button }}
+            <a href="{{ .link | absURL }}" class="btn-link">{{ .label }} <i class="ti-arrow-right"></i></a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.approach.enable }}
+{{ with site.Data.homepage.approach }}
+<section id="approach" class="section">
+  <div class="container">
+    <div class="section-heading text-center">
+      {{ with .eyebrow }}<p class="eyebrow justify-content-center">{{ . }}</p>{{ end }}
+      <h2 class="section-title">{{ .title | markdownify }}</h2>
+      {{ with .content }}<p class="section-description">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    <div class="row">
+      {{ range $index, $item := .item }}
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <article class="approach-card w-100">
+          <span class="approach-step">{{ printf "%02d" (add $index 1) }}</span>
+          <h3>{{ $item.title | markdownify }}</h3>
+          <p>{{ $item.content | markdownify }}</p>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.call_to_action.enable }}
+{{ with site.Data.homepage.call_to_action }}
+<section class="section">
+  <div class="container">
+    <div class="cta-shell">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="eyebrow">{{ site.Title }}</p>
+          <h2>{{ .title | markdownify }}</h2>
+          <p class="cta-copy">{{ .content | markdownify }}</p>
+          {{ with .note }}<p class="cta-note">{{ . | markdownify }}</p>{{ end }}
+        </div>
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <div class="cta-actions">
+            {{ if .primary_button.enable }}
+            {{ with .primary_button }}
+            <a href="{{ .link | absURL }}" class="btn btn-light">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+            {{ if .secondary_button.enable }}
+            {{ with .secondary_button }}
+            <a href="{{ .link | absURL }}" class="btn btn-outline-light">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  {{ hugo.Generator }}
+
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
+
+  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen">
+
+  <link rel="shortcut icon" href="{{ `favicon.ico` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `favicon.ico` | absURL }}" sizes="any">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ `apple-touch-icon.png` | absURL }}">
+
+  <meta property="og:image" content="{{ site.Params.og_default_image | absURL }}">
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
+</head>

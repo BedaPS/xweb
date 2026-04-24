@@ -1,0 +1,15 @@
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-shell text-center">
+      <p class="eyebrow justify-content-center">{{ site.Title }}</p>
+      <h1>{{ .Title | markdownify }}</h1>
+      {{ with .Params.description }}
+      <p class="page-hero-copy">{{ . | markdownify }}</p>
+      {{ else }}
+      {{ with .Params.subtitle }}
+      <p class="page-hero-copy">{{ . | markdownify }}</p>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,63 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-shell">
+      <div class="row">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <a class="footer-brand" href="{{ site.BaseURL }}">
+            <img width="{{ site.Params.logo_width }}" class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+          </a>
+          <p class="footer-copy">{{ site.Params.footer_content | markdownify }}</p>
+          {{ with site.Params.footer_tagline }}<p class="footer-tagline">{{ . | markdownify }}</p>{{ end }}
+        </div>
+
+        <div class="col-sm-6 col-lg-2 mb-5 mb-lg-0">
+          {{ if site.Menus.footer_left }}
+          <p class="footer-heading">{{ site.Params.footer_menu_left }}</p>
+          <ul class="list-unstyled footer-list">
+            {{ range site.Menus.footer_left }}
+            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+
+        <div class="col-sm-6 col-lg-2 mb-5 mb-lg-0">
+          {{ if site.Menus.footer_middle }}
+          <p class="footer-heading">{{ site.Params.footer_menu_middle }}</p>
+          <ul class="list-unstyled footer-list">
+            {{ range site.Menus.footer_middle }}
+            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+
+        <div class="col-lg-3">
+          <div class="footer-contact-card">
+            <p class="footer-heading">Contact</p>
+            {{ with site.Params.contact_email }}
+            <a class="footer-contact-link" href="{{ printf "mailto:%s" . | safeURL }}">{{ . }}</a>
+            {{ end }}
+            {{ with site.Params.contact_phone }}
+            <a class="footer-contact-link" href="{{ printf "tel:%s" . | safeURL }}">{{ . }}</a>
+            {{ end }}
+            {{ with site.Params.office_address }}
+            <p class="footer-address">{{ . | markdownify }}</p>
+            {{ end }}
+            <a href="{{ "contact" | absURL }}" class="btn btn-sm btn-light">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>{{ site.Params.copyright | markdownify }}</small>
+    </div>
+  </div>
+
+  {{ range site.Params.plugins.js }}
+  <script src="{{ .link | absURL }}"></script>
+  {{ end }}
+
+  {{ $script := resources.Get "js/script.js" | minify }}
+  <script src="{{ $script.Permalink }}"></script>
+</footer>

@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="container">
+    <article class="content-panel content-panel-blog">
+      {{ with .Params.image }}
+      <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="img-fluid single-post-image">
+      {{ end }}
+      <div class="content">{{ .Content }}</div>
+
+      {{ if site.Params.disqusShortname }}
+      <div class="mt-5">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+      {{ end }}
+    </article>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ if eq .Section "post" }}
+{{ partial "blog-single-body.html" . }}
+{{ else if eq .Section "blog" }}
+{{ partial "blog-single-body.html" . }}
+{{ else if eq .Section "categories" }}
+{{ partial "blog-single-body.html" . }}
+{{ else if eq .Section "tags" }}
+{{ partial "blog-single-body.html" . }}
+{{ else }}
+<section class="section">
+  <div class="container">
+    <div class="content-panel">
+      <div class="content">{{ .Content }}</div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

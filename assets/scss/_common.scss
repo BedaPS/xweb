@@ -1,0 +1,248 @@
+:root {
+  --color-primary: #{$primary-color};
+  --color-primary-dark: #{$primary-color-dark};
+  --color-accent: #{$accent-color};
+  --color-bg: #{$body-color};
+  --color-surface: #{$white};
+  --color-surface-strong: #{$dark-surface};
+  --color-text: #{$text-color};
+  --color-heading: #{$text-color-dark};
+  --color-border: #{rgba(15, 23, 42, 0.1)};
+  --shadow-card: 0 24px 64px rgba(15, 23, 42, 0.08);
+  --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.06);
+  --radius-xl: 36px;
+  --radius-lg: 28px;
+  --radius-md: 20px;
+  --radius-sm: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(17, 153, 142, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.08), transparent 22%),
+    $body-color;
+  overflow-x: hidden;
+}
+
+body::selection {
+  background-color: darken($primary-color, 8%);
+  color: $white;
+}
+
+body::-webkit-scrollbar {
+  width: 0.55rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.08);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
+  border-radius: 999px;
+}
+
+section[id] {
+  scroll-margin-top: 8rem;
+}
+
+.site-main {
+  position: relative;
+}
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  background-color: $body-color;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ol,
+ul {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  display: block;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: $primary-color;
+}
+
+.slick-slide {
+  outline: 0;
+}
+
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  @include tablet {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  &-title {
+    margin-bottom: 1rem;
+  }
+}
+
+.section-muted {
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+}
+
+.section-description,
+.page-hero-copy {
+  font-size: 1.05rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.section-copy {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: $primary-color;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 1.2rem;
+
+  &::before {
+    content: '';
+    width: 2.4rem;
+    height: 1px;
+    background: rgba(17, 153, 142, 0.4);
+  }
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.bg-light {
+  background-color: $light !important;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.rounded-lg {
+  border-radius: 24px !important;
+}
+
+.shadow {
+  box-shadow: var(--shadow-card) !important;
+}
+
+.surface-card,
+.content-panel,
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 28px;
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(18px);
+}
+
+.card {
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0.95rem 1.1rem;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.94);
+  color: $text-color-dark;
+
+  &:focus {
+    outline: 0;
+    border-color: rgba(17, 153, 142, 0.45);
+    box-shadow: 0 0 0 4px rgba(17, 153, 142, 0.12);
+  }
+
+  &::placeholder {
+    color: rgba(93, 102, 119, 0.75);
+  }
+}
+
+textarea.form-control {
+  min-height: 170px !important;
+  resize: vertical;
+}
+
+.list-unstyled li {
+  margin-bottom: 0.7rem;
+}
+
+.check-mark {
+  position: relative;
+  padding-left: 2.3rem;
+
+  &::before {
+    position: absolute;
+    content: "\e64c";
+    font-family: $icon-font;
+    color: $white;
+    height: 1.55rem;
+    width: 1.55rem;
+    line-height: 1.55rem;
+    background-color: $primary-color;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    text-align: center;
+    left: 0;
+    top: 0.05rem;
+  }
+}

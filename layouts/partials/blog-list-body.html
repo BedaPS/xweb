@@ -1,0 +1,40 @@
+{{ $featured := first 1 (where .RegularPages "Params.type" "featured") }}
+{{ $posts := where .RegularPages "Params.type" "ne" "featured" }}
+<section class="section">
+  <div class="container">
+    {{ range $featured }}
+    <article class="featured-post mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid featured-post-image">
+        </div>
+        <div class="col-lg-6">
+          <p class="eyebrow">Featured insight</p>
+          <h2><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h2>
+          <p>{{ .Summary }}</p>
+          <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+
+    {{ $paginator := .Paginate $posts }}
+    <div class="row">
+      {{ range $paginator.Pages }}
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <article class="post-card w-100">
+          <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="post-image">
+          <div class="post-card-body">
+            <h3><a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+    <div class="col-12 px-0">
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </div>
+</section>
